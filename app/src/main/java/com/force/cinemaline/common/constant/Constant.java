@@ -5,7 +5,7 @@ package com.force.cinemaline.common.constant;
  */
 public class Constant {
 
-    //hello world      kkk
+    //1513153
 
     public final static String APP_NAME = "cinemaLine";
     public final static String IS_CHECKED_LOAD = "isCheckedLoad";
