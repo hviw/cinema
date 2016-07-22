@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#B3B3B3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/ic_lunch"
+            android:id="@+id/zxun_imv_hdong"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="院线通礼包优惠码兑换专区"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="120dp"
+            android:textSize="19dp"
+            android:id="@+id/find_zxun_hdong"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="即日起至2016年12月31日"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="120dp"
+            android:id="@+id/find_zxun2_hdong"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@mipmap/title_bar_bg">
+
+        <ImageView
+            android:id="@+id/iv_seting_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="设置"
+            android:textColor="@color/colorYellow"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#737373"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分享设置"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/seting_share" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#737373"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用帮助"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/seting_help"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#737373"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分享给朋友"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/seting_share_friend"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#737373"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="意见反馈"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/seting_feedback"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#737373"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="版本更新"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/set_upadpter"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#737373"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关于我们"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/seting_aboutus"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#737373"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/shsre_bg">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="推送开关"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="7dp"
+            android:layout_marginLeft="20dp"/>
+
+      <com.force.cinemaline.module.setup.ui.view.SlideSwitchButton
+          android:layout_width="500dp"
+          android:layout_height="500dp"
+          android:id="@+id/slideview"
+          android:layout_marginLeft="300dp"
+          android:layout_marginTop="25dp"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

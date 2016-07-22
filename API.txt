@@ -1,0 +1,4 @@
+推荐电影 	http://www.189mv.cn/qryFilm.htm				GET
+hotCinemas	http://www.189mv.cn/qryHotCinemss.htm	GET
+评论		http://www.189mv.cn/filmcritics/criticsList.action		POST
+

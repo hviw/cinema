@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="180dp">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@mipmap/aaaa"
+        android:id="@+id/iv_show_logo"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开心麻花爆笑舞台剧 李茶的姑妈 "
+            android:textSize="18sp"
+            android:id="@+id/tv_show_title"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="时间:2016.08.02-2016.08.14"
+            android:id="@+id/tv_show_time"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="场馆:上海虹桥艺术中心"
+            android:id="@+id/tv_show_address"/>
+
+        <RelativeLayout
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:text="选座"
+                android:textColor="@color/colorYellow"
+                android:background="@drawable/bg_yellow_stroke"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="元起"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/tv_show_after_price"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="80"
+                android:textColor="@color/colorRed"
+                android:textSize="18sp"
+                android:layout_toLeftOf="@id/tv_show_after_price"
+                android:layout_centerVertical="true"
+                android:id="@+id/tv_show_price"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

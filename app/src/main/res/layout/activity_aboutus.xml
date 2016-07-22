@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@mipmap/title_bar_bg">
+
+        <ImageView
+            android:id="@+id/iv_seting_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/left"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="关于我们"
+            android:textColor="@color/colorYellow"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="产品介绍"
+            android:textColor="#ffffff"
+            android:textSize="40dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="产品简介:"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="每次你很沮丧 受了伤,对世界失望,你说你最欣赏 我这样,横冲又直撞,因为你在身旁 连飞翔都不用翅膀"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="功能简介:"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="你是天空那颗星星 最闪亮
+　　我们为爱发誓 永远一起
+　　不管困惑贫穷 都不离不弃
+　　是你教我相信 相信爱就有奇迹
+　　让我们将童话延续
+　　亲爱的 愿不愿意让我嫁给你
+　　]亲爱的 愿不愿意让我娶你
+　　我愿意 我愿意
+　　我愿意
+　　我们为爱发誓 永远一起
+　　不管生老病痛 都不离不弃
+　　是你教我相信 相信爱就有勇气
+　　一起写下童话故事幸福结局
+　　我们为爱发誓 永远一起
+　　不管困惑贫穷 都不离不弃
+　　是你教我相信 相信爱就有奇迹
+　　让我们将童话延续
+　　将童话一直延续下去"/>
+    </LinearLayout>
+
+
+</LinearLayout>

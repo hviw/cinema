@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="110dp">
+   <ImageView
+       android:layout_width="80dp"
+       android:layout_height="80dp"
+       android:background="@mipmap/ic_lunch"
+       android:layout_margin="15dp"
+       android:id="@+id/find_pfang_imv"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="寒战2"
+           android:textSize="20dp"
+           android:layout_marginLeft="100dp"
+           android:layout_marginTop="20dp"
+           android:id="@+id/find_pfang_tvtitle"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="累计票房(万):"
+           android:layout_marginLeft="100dp"
+           android:layout_marginTop="50dp"
+           android:id="@+id/find_pfang_tvup"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="29879"
+           android:layout_marginLeft="210dp"
+           android:layout_marginTop="50dp"
+           android:id="@+id/find_pfang_tvup1"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="本周票房(万):"
+           android:layout_marginTop="70dp"
+           android:layout_marginLeft="100dp"
+           android:id="@+id/find_pfang_tvdown"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="29879"
+           android:layout_marginTop="70dp"
+           android:layout_marginLeft="210dp"
+           android:id="@+id/find_pfang_tvdown1"/>
+   </RelativeLayout>
+
+</LinearLayout>

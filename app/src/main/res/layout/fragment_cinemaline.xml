@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@mipmap/title_bar_bg"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_cinema_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="@string/location"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/tv_cinema_location"
+            android:src="@mipmap/main_arrow_down" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="影院"
+            android:textColor="@color/colorYellow"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/cinema_search" />
+    </RelativeLayout>
+
+    <ExpandableListView
+        android:id="@+id/elv_cinema_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:indicatorRight="680dp"
+        android:divider="@color/colorWhite"
+        android:dividerHeight="10dp"
+        android:childDivider="@color/colorWhite">
+    </ExpandableListView>
+
+</LinearLayout>

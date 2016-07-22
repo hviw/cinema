@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".module.main.ui.MainActivity">
+
+    <RadioGroup
+        android:layout_alignParentBottom="true"
+        android:id="@+id/radio_group_main"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal">
+
+        <RadioButton
+            style="@style/MainRadioButtonStyle"
+            android:checked="true"
+            android:id="@+id/main_first_page"
+            android:drawableTop="@drawable/sel_main_radio_button_first_bg"
+            android:gravity="center"
+            android:text="首页"
+            android:layout_marginBottom="5dp"/>
+
+        <RadioButton
+            style="@style/MainRadioButtonStyle"
+            android:id="@+id/main_buy_ticket"
+            android:drawableTop="@drawable/sel_main_radio_button_buy_bg"
+            android:text="购票" />
+
+        <RadioButton
+            style="@style/MainRadioButtonStyle"
+            android:id="@+id/main_cinema"
+            android:drawableTop="@drawable/sel_main_radio_button_cinema_bg"
+            android:text="影院" />
+
+        <RadioButton
+            style="@style/MainRadioButtonStyle"
+            android:id="@+id/main_find_out"
+            android:drawableTop="@drawable/sel_main_radio_button_find_bg"
+            android:text="发现" />
+
+        <RadioButton
+            style="@style/MainRadioButtonStyle"
+            android:id="@+id/main_self"
+            android:drawableTop="@drawable/sel_main_radio_button_me_bg"
+            android:text="我的" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_fragment_container"
+        android:layout_above="@id/radio_group_main">
+    </LinearLayout>
+</RelativeLayout>
